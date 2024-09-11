@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Shopping Cart</title>
+  <link rel="stylesheet" href="cart.css">
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <button onclick="window.location.href=''">Home</button>
+      <button onclick="window.location.href=''">View Product</button>
+      <button onclick="window.location.href=''">Request Item</button>
+      <button ><a href="checkout.html" style="text-decoration: none;">LogOut</a></button>
+    </div>
+
+    <div class="shopping-cart">
+      <h2>Shopping Cart</h2>
+      <div class="cart-items">
+        <div class="item">
+          <img src="placeholder.png" alt="Product Image"> 
+          <div class="details">
+            <span class="name">Product Name</span>
+            <span class="price">100/-</span>
+            <select class="quantity">
+              <option value="1">1</option>
+              <option value="2" selected>2</option>
+              <option value="3">3</option>
+            </select>
+            <span class="total-price">200/-</span>
+            <button class="remove">Remove</button>
+          </div>
+        </div>
+      </div>
+      <div class="grand-total">
+        <span>Grand Total: </span>
+        <span class="total-amount">200/-</span>
+      </div>
+      <button class="delete-all" >Delete All</button>
+    </div>
+
+    <button class="checkout"><a href="checkout.html" style="text-decoration: none;" class="checkout">Proceed to CheckOut</a></button>
+  </div>
+</body>
+</html>

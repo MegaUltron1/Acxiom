@@ -1,0 +1,44 @@
+body {
+	background-color: #f2f2f2;
+	font-family: Arial, sans-serif;
+}
+
+.container {
+	width: 50%;
+	margin: 40px auto;
+	padding: 20px;
+	border: 1px solid #ccc;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+	text-align: center;
+}
+
+h2 {
+	margin-top: 20px;
+}
+
+.login-options {
+	margin-top: 40px;
+}
+
+.login-options ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.login-options li {
+	margin-bottom: 20px;
+}
+
+.login-options a {
+	text-decoration: none;
+	color: #337ab7;
+}
+
+.login-options a:hover {
+	color: #23527c;
+}

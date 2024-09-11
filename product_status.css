@@ -1,0 +1,39 @@
+body {
+    font-family: sans-serif;
+  }
+  
+  .product-info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .product-info div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .product-info label {
+    width: 100px;
+  }
+  
+  .product-info input[type="text"], 
+  .product-info select {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .product-info input[readonly] {
+    background-color: #f0f0f0; 
+  }
+  
+  #update-status {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff; /* Blue color */
+    color: #fff;
+    cursor: pointer;
+  }

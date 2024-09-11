@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Vendor Product Page</title>
+  <link rel="stylesheet" href="add_item.css">
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <div class="welcome">Welcome </div>
+      <div class="buttons">
+        <button class="button"><a href="product_status.html" class="button" style="text-decoration: none;">Product Status</a></button>
+        <button class="button">Request Item</button>
+        <button class="button">View Product</button>
+        <button class="button"><a href="index.html" class="button" style="text-decoration: none;">Log Out</a></button>
+      </div>
+    </div>
+    <div class="content">
+      <div class="left-side">
+        <input type="text" placeholder="Product Name" class="input-field">
+        <input type="text" placeholder="Product Price" class="input-field">
+        <input type="file" accept="image/*" class="input-field" id="product-image">
+        <label for="product-image" class="label">Product Image</label>
+        <button class="button">Add The Product</button>
+      </div>
+      <div class="right-side">
+        <table>
+          <thead>
+            <tr>
+              <th>Product Image</th>
+              <th>Product Name</th>
+              <th>Product Price</th>
+              <th>Action</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                <div class="image-container">
+                  <img src="product-image.jpg" alt="Product Image" class="product-image">
+                </div>
+              </td>
+              <td>
+                <input type="text" placeholder="Image Name" class="input-field">
+              </td>
+              <td>
+                <input type="text" placeholder="Rs/-" class="input-field">
+              </td>
+              <td>
+                <button class="button">Delete</button>
+                <button class="button">Update</button>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
